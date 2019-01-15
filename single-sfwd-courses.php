@@ -25,7 +25,8 @@
 ?>
 
 	<h3><?php the_title(); ?></h3>
-	
+	// add aditional couse detail accoring to user requirment
+	<?php do_action('add_course_content');?>
 	
 	<div id="item-meta">			
 		
